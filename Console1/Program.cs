@@ -36,6 +36,8 @@ namespace Console1 {
             if (i is string) {
                 Console.WriteLine(i);
             }
+
+            //TEST
         }
     }
 }
