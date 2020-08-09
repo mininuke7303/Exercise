@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebApp1", "CoreWebApp1\CoreWebApp1.csproj", "{1823502F-F781-4C9C-AE8C-405B76D898FF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{AA6F2E88-D717-4A09-AB19-886BCD364080}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AA6F2E88-D717-4A09-AB19-886BCD364080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDotNetCore3App", "FirstDotNetCore3App\FirstDotNetCore3App.csproj", "{2A63B26E-8316-465F-990E-7EA5C2AA22A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstDotNetCore3App", "FirstDotNetCore3App\FirstDotNetCore3App.csproj", "{2A63B26E-8316-465F-990E-7EA5C2AA22A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultInterfaceMethods", "DefaultInterfaceMethods\DefaultInterfaceMethods.csproj", "{85FCDCF5-E7EB-4423-B83C-BB0D45FCB3EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RangesAndIndices", "RangesAndIndices\RangesAndIndices.csproj", "{1924FABE-9F0B-4500-A413-B90A7D989944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{55EA3E49-D477-440A-A0A3-25DB15F30935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{A576A3F3-229B-496F-BC54-47521068F0EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,9 +49,28 @@ Global
 		{2A63B26E-8316-465F-990E-7EA5C2AA22A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A63B26E-8316-465F-990E-7EA5C2AA22A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A63B26E-8316-465F-990E-7EA5C2AA22A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85FCDCF5-E7EB-4423-B83C-BB0D45FCB3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FCDCF5-E7EB-4423-B83C-BB0D45FCB3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FCDCF5-E7EB-4423-B83C-BB0D45FCB3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FCDCF5-E7EB-4423-B83C-BB0D45FCB3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1924FABE-9F0B-4500-A413-B90A7D989944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1924FABE-9F0B-4500-A413-B90A7D989944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1924FABE-9F0B-4500-A413-B90A7D989944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1924FABE-9F0B-4500-A413-B90A7D989944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EA3E49-D477-440A-A0A3-25DB15F30935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EA3E49-D477-440A-A0A3-25DB15F30935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EA3E49-D477-440A-A0A3-25DB15F30935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EA3E49-D477-440A-A0A3-25DB15F30935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A576A3F3-229B-496F-BC54-47521068F0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A576A3F3-229B-496F-BC54-47521068F0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A576A3F3-229B-496F-BC54-47521068F0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A576A3F3-229B-496F-BC54-47521068F0EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A576A3F3-229B-496F-BC54-47521068F0EA} = {AA6F2E88-D717-4A09-AB19-886BCD364080}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9C8ECDE-9B88-47E1-9C10-0FBE795D1E8C}

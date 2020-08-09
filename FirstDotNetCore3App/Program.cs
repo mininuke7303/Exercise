@@ -18,7 +18,9 @@ namespace FirstDotNetCore3App {
 
 
         static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+
+            var address = new FullAddress("Foobar", 42, "12345");
         }
     }
 }

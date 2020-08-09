@@ -28,6 +28,15 @@ namespace Console1 {
 
         static void Main(string[] args) {
 
+            SendMessageToTarget1();
+
+            for(int i=0; i<30_000; i++) {
+
+
+            }
+
+
+
             Dictionary<string, string> todos = new Dictionary<string, string>();
             todos.Add("1", "C#");
             todos.Add("2", "VS");
@@ -141,6 +150,10 @@ namespace Console1 {
 
 
             //TEST
+        }
+
+        private static void SendMessageToTarget1() {
+            throw new NotImplementedException();
         }
     }
 }
